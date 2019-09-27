@@ -13,6 +13,10 @@
 		C0EBFF6B233B9E5D0006262A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF69233B9E5D0006262A /* Main.storyboard */; };
 		C0EBFF6D233B9E5F0006262A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF6C233B9E5F0006262A /* Assets.xcassets */; };
 		C0EBFF70233B9E5F0006262A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF6E233B9E5F0006262A /* LaunchScreen.storyboard */; };
+		C0EBFF7E233BC7CB0006262A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBFF7D233BC7CB0006262A /* SecondViewController.swift */; };
+		C0EBFF80233E0B4C0006262A /* gaikan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF7F233E0B4C0006262A /* gaikan.jpg */; };
+		C0EBFF82233E0B650006262A /* tennai1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF81233E0B650006262A /* tennai1.jpg */; };
+		C0EBFF84233E0B700006262A /* tennai2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0EBFF83233E0B700006262A /* tennai2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C0EBFF6C233B9E5F0006262A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0EBFF6F233B9E5F0006262A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0EBFF71233B9E5F0006262A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EBFF7D233BC7CB0006262A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C0EBFF7F233E0B4C0006262A /* gaikan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gaikan.jpg; path = ../../gaikan.jpg; sourceTree = "<group>"; };
+		C0EBFF81233E0B650006262A /* tennai1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tennai1.jpg; path = ../../tennai1.jpg; sourceTree = "<group>"; };
+		C0EBFF83233E0B700006262A /* tennai2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tennai2.jpg; path = ../../tennai2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		C0EBFF57233B9E5D0006262A = {
 			isa = PBXGroup;
 			children = (
+				C0EBFF7D233BC7CB0006262A /* SecondViewController.swift */,
 				C0EBFF62233B9E5D0006262A /* SlideshowApp */,
 				C0EBFF61233B9E5D0006262A /* Products */,
 			);
@@ -59,6 +68,9 @@
 				C0EBFF63233B9E5D0006262A /* AppDelegate.swift */,
 				C0EBFF65233B9E5D0006262A /* SceneDelegate.swift */,
 				C0EBFF67233B9E5D0006262A /* ViewController.swift */,
+				C0EBFF7F233E0B4C0006262A /* gaikan.jpg */,
+				C0EBFF81233E0B650006262A /* tennai1.jpg */,
+				C0EBFF83233E0B700006262A /* tennai2.jpg */,
 				C0EBFF69233B9E5D0006262A /* Main.storyboard */,
 				C0EBFF6C233B9E5F0006262A /* Assets.xcassets */,
 				C0EBFF6E233B9E5F0006262A /* LaunchScreen.storyboard */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EBFF80233E0B4C0006262A /* gaikan.jpg in Resources */,
 				C0EBFF70233B9E5F0006262A /* LaunchScreen.storyboard in Resources */,
+				C0EBFF82233E0B650006262A /* tennai1.jpg in Resources */,
 				C0EBFF6D233B9E5F0006262A /* Assets.xcassets in Resources */,
 				C0EBFF6B233B9E5D0006262A /* Main.storyboard in Resources */,
+				C0EBFF84233E0B700006262A /* tennai2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EBFF7E233BC7CB0006262A /* SecondViewController.swift in Sources */,
 				C0EBFF68233B9E5D0006262A /* ViewController.swift in Sources */,
 				C0EBFF64233B9E5D0006262A /* AppDelegate.swift in Sources */,
 				C0EBFF66233B9E5D0006262A /* SceneDelegate.swift in Sources */,
